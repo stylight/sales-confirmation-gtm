@@ -1,2 +1,6 @@
 homepage: "https://stylight.com"
-documentation: "https://stylight.com"
+documentation: "https://partner.stylight.net"
+versions:
+  # Latest version
+  - sha: 11ddded1ae4fe3a2b984efbbe166a0da76957859
+    changeNotes: Initial release
