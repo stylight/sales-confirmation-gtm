@@ -2,5 +2,8 @@ homepage: "https://stylight.com"
 documentation: "https://partner.stylight.com"
 versions:
   # Latest version
+  - sha: 47affcaed74cbc361e0ec88380567da4d851f2bd
+    changeNotes: Drop skus field
+  # Older versions
   - sha: 1ddb05ff47041d223dac824d635bc2a906566549
     changeNotes: Initial release
