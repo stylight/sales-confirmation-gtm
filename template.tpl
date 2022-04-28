@@ -73,13 +73,6 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "TEXT",
-    "name": "skus",
-    "displayName": "SKUs",
-    "simpleValueType": true,
-    "help": "Product ID/SKUs separated by \u0027|\u0027. Example: \u00271234|5678\u0027"
-  },
-  {
-    "type": "TEXT",
     "name": "itemCount",
     "displayName": "Item Count",
     "simpleValueType": true,
@@ -122,7 +115,6 @@ const sendStylightSale = () => {
     'c': data.currency || '',
     'oi': data.orderId || '',
     'ta': data.totalAmount || '',
-    'skus': data.skus || '',
     'ic': data.itemCount || '',
     'dry_run': data.dryRun || false
   };
